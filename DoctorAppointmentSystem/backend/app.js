@@ -21,7 +21,9 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5174", // Admin (Vite)
-    "http://localhost:3000"  // User system (React)
+    "http://localhost:3000",  // User system (React)
+    "https://doc-now-bqz8-beta.vercel.app/login",
+    "http://doc-now-bqz8-beta.vercel.app/login"
   ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   credentials: true
