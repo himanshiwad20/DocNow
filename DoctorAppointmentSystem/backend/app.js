@@ -42,3 +42,5 @@ app.use("/api/v1/doctor", doctorRoutes)
 app.use("/api/v1/appointment", AppointmentRoutes)
 
 export default app;
+
+
