@@ -1,0 +1,16 @@
+.navBar {
+    background-color: black;
+    color: #fff;
+    margin-bottom: 30px;
+    position:fixed
+}
+
+.navBar .nav-link {
+    color: #fff;
+    border-bottom: 1px solid #343232;
+}
+
+.navBar .nav-link:hover {
+    color: #fff;
+    background-color: #4a4242;
+}

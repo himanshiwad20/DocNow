@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name":"Mr. Kaushal",
+        "address":"Local Resident",
+        "commentTile":"Great Service provided",
+        "commentDescription":"Polite doctor",
+        "rating":5,
+        "pic":"https://static.thenounproject.com/png/801397-200.png"
+    },
+    {
+        "id":2,
+        "name":"Mrs. Bose",
+        "address":"Local Resident",
+        "commentTile":"Excellent knowledge",
+        "commentDescription":"Good Prescription",
+        "rating":5,
+        "pic":"https://static.thenounproject.com/png/801397-200.png"
+    },
+    {
+        "id":3,
+        "name":"Ms. Sharma",
+        "address":"Agra",
+        "commentTile":"Home like hospital, friendly doctor",
+        "commentDescription":"Great service",
+        "rating":5,
+        "pic":"https://static.thenounproject.com/png/801397-200.png"
+    }
+]
