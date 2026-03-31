@@ -17,7 +17,7 @@ import {store} from './redux/store.js';
 import AppointmentDetails from "./pages/User/AppointmentDetails.js";
 import ResetPassword from "./pages/User/ResetPassword.js";
 import ProtectedRoute from "./components/ProtectedRoute.js";
-import DocNowExpert from './pages/DocNowExpert.jsx';
+// import DocNowExpert from './pages/DocNowExpert.jsx';
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<GalleryPage />} />
-          <Route path='/docnowExpert' element={<DocNowExpert />}/>
+          {/* <Route path='/docnowExpert' element={<DocNowExpert />}/> */}
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/doctors" element={<AllDoctors />} />
