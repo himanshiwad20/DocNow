@@ -25,7 +25,9 @@ app.use(cors({
     "https://doc-now-bqz8-beta.vercel.app/",
     "http://doc-now-bqz8-beta.vercel.app/",
     "https://doc-now-izmk.vercel.app/",
-    "http://doc-now-izmk.vercel.app/"
+    "http://doc-now-izmk.vercel.app/",
+    "https://doc-now-chi.vercel.app/",
+    "http://doc-now-chi.vercel.app/"
   ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   credentials: true
