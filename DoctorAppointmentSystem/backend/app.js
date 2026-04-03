@@ -22,12 +22,12 @@ app.use(cors({
   origin: [
     "http://localhost:5174", // Admin (Vite)
     "http://localhost:3000",  // User system (React)
-    "https://doc-now-bqz8-beta.vercel.app/",
-    "http://doc-now-bqz8-beta.vercel.app/",
-    "https://doc-now-izmk.vercel.app/",
-    "http://doc-now-izmk.vercel.app/",
-    "https://doc-now-chi.vercel.app/",
-    "http://doc-now-chi.vercel.app/"
+    "https://doc-now-bqz8-beta.vercel.app",
+    "http://doc-now-bqz8-beta.vercel.app",
+    "https://doc-now-izmk.vercel.app",
+    "http://doc-now-izmk.vercel.app",
+    "https://doc-now-chi.vercel.app",
+    "http://doc-now-chi.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   credentials: true
