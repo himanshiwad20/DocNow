@@ -289,7 +289,7 @@ const Appointments = () => {
           {docInfo?.available === "true"
             ? user
               ? "Confirm Booking"
-              : "Please Login"
+              : "Please Login to Book Appointment"
             : "Doctor Not Available"}
         </button>
       </div>
